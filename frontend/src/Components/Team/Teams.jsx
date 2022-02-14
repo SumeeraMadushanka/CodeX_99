@@ -9,7 +9,7 @@ import Mitila from "../Assets/Team/mitila.png";
 
 const Teams = () => {
   return (
-    <div className="container max-w-7xl mx-auto px-8 ">
+    <div className="container max-w-7xl mx-auto px-8 bg-slate-300 pb-10 pr-10 ">
       <div className="flex flex-wrap">
         <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-5 my-20">
           <div className="cursor-pointer">
@@ -126,7 +126,7 @@ const Teams = () => {
               Raveena Bandara
             </h1>
             <p className="text-blue-gray-700 text-base font-Poppins leading-relaxed mt-0 mb-4">
-              Human Resources
+              Backend Developer
             </p>
             <div className="flex items-center justify-center gap gap-2">
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">

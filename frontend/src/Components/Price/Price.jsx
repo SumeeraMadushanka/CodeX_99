@@ -4,8 +4,8 @@ const Price = () => {
   return (
     <section>
       <div class="container max-w-full mx-auto py-12 px-6">
-        <h1 class="text-center text-4xl text-black font-medium leading-snug tracking-wider">
-          Pricing
+        <h1 class="text-center text-4xl text-black font-Poppins font-semibold leading-snug tracking-wider">
+          PRICING
         </h1>
         <p class="text-center text-lg text-gray-700 mt-2 px-6">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -14,14 +14,16 @@ const Price = () => {
         <div class="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded"></div>
 
         <div class="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
-          <div class="relative block flex flex-col md:flex-row items-center">
-            <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:-mr-4">
-              <div class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
+          <div class="relative flex flex-col md:flex-row items-center">
+            <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:pr-5">
+              <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden  outline outline-orange-500">
                 <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                  <h1 class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">
-                    Hobby
+                  <h1 class="text-lg text-orange-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
+                    UI/UX GRAPHIC DESIGNING
                   </h1>
-                  <h2 class="text-sm text-gray-500 text-center pb-6">FREE</h2>
+                  <div class="text-black text-center pb-6">
+                    <span class="text-2xl">25$</span>
+                  </div>
                   Stripe offers everything needed to run an online business at
                   scale. Get in touch for details.
                 </div>
@@ -87,27 +89,23 @@ const Price = () => {
                     </li>
                   </ul>
                 </div>
-                <div class="block flex items-center p-8  uppercase">
-                  <button
-                    class="mt-3 text-lg font-semibold 
-	bg-black w-full text-white rounded-lg 
-	px-6 py-3 block shadow-xl hover:bg-gray-700"
-                  >
-                    Select
+                <div class="flex items-center p-8  uppercase">
+                  <button class="mt-3 text-lg font-semibold bg-orange-500 w-full text-white rounded-lg px-6 py-3 shadow-xl">
+                    SELECT
                   </button>
                 </div>
               </div>
             </div>
-            <div class="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative z-10 bg-white rounded-lg shadow-lg">
-              <div class="text-sm leading-none rounded-t-lg bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide">
+            <div class="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative bg-white rounded-lg shadow-xl outline outline-lime-500">
+              <div class="text-lg leading-none rounded-t-lg bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide">
                 Most Popular
               </div>
               <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                <h1 class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">
-                  Expert
+                <h1 class="text-lg text-lime-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
+                  WEB DESIGNING
                 </h1>
-                <h2 class="text-sm text-gray-500 text-center pb-6">
-                  <span class="text-3xl">€19</span> /mo
+                <h2 class="text-black text-center pb-6">
+                  <span class="text-2xl">65$</span>
                 </h2>
                 Stripe offers everything needed to run an online business at
                 scale. Get in touch for details.
@@ -174,25 +172,21 @@ const Price = () => {
                 </ul>
               </div>
 
-              <div class="block flex items-center p-8  uppercase">
-                <button
-                  class="mt-3 text-lg font-semibold 
-	bg-black w-full text-white rounded-lg 
-	px-6 py-3 block shadow-xl hover:bg-gray-700"
-                >
-                  Select
+              <div class="flex items-center p-8  uppercase">
+                <button class="mt-3 text-lg font-semibold bg-lime-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
+                  SELECT
                 </button>
               </div>
             </div>
-            <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:-ml-4">
-              <div class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
+            <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8  rounded-lg shadow-lg md:pl-5">
+              <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden outline outline-sky-500">
                 <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                  <h1 class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">
-                    Enterprise
+                  <h1 class="text-lg text-sky-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
+                    MOBILE APPLICATION DEVELOPMENT
                   </h1>
-                  <h2 class="text-sm text-gray-500 text-center pb-6">
-                    €39 /mo
-                  </h2>
+                  <div class="text-black text-center pb-6">
+                    <span className="text-2xl">140$</span>
+                  </div>
                   Stripe offers everything needed to run an online business at
                   scale. Get in touch for details.
                 </div>
@@ -258,13 +252,9 @@ const Price = () => {
                   </ul>
                 </div>
 
-                <div class="block flex items-center p-8  uppercase">
-                  <button
-                    class="mt-3 text-lg font-semibold 
-	bg-black w-full text-white rounded-lg 
-	px-6 py-3 block shadow-xl hover:bg-gray-700"
-                  >
-                    Select
+                <div class="flex items-center p-8  uppercase">
+                  <button class="mt-3 text-lg font-semibold bg-sky-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
+                    SELECT
                   </button>
                 </div>
               </div>

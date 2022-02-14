@@ -10,11 +10,11 @@ import IMG6 from "../Assets/Serviecs/img6.jpg";
 const Services = () => {
   return (
     <>
-      <div className="bg-slate-200 mt-20">
-        <div className="text-center pt-20 translate-y-20">
-          <span className=" text-5xl text-black font-bold font-Poppins">What Do We Do?</span>
+      <div className="bg-slate-200 mt-20 ">
+        <div className="text-center pt-16 translate-y-8 md:translate-y-20">
+          <span className=" text-5xl text-black font-semibold font-Poppins">What Do We Do?</span>
         </div>
-        <div className="p-32 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3">
+        <div className="p-10 md:p-36 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3">
           <div className="overflow-hidden shadow-lg outline outline-lime-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 scale-90">
             <img className="w-full" src={IMG1} alt="" />
             <div className="px-6 py-4 hover:bg-lime-500 transition duration-300 ease-in">
