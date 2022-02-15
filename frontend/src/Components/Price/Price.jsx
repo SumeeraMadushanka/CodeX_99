@@ -11,12 +11,12 @@ const Price = () => {
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam.
         </p>
-        <div className="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded"></div>
+        <div className="h-1 mx-auto bg-indigo-200 w-96 opacity-75 mt-4 rounded"></div>
 
         <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
           <div className="relative flex flex-col md:flex-row items-center">
             <div className="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:pr-5">
-              <div className="bg-white text-black  shadow-lg overflow-hidden  outline outline-orange-500">
+              <div className="shadow-lg overflow-hidden  outline outline-orange-500">
                 <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                   <h1 className="text-lg text-orange-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                     UI/UX GRAPHIC DESIGNING
@@ -94,7 +94,7 @@ const Price = () => {
                   </ul>
                 </div>
                 <div className="flex items-center p-8  uppercase">
-                  <button className="mt-3 text-lg font-semibold bg-orange-500 w-full text-white px-6 py-3 shadow-xl">
+                  <button className="mt-3 text-lg font-semibold bg-orange-500 w-full text-black px-6 py-3 shadow-xl">
                     SELECT
                   </button>
                 </div>
