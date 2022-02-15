@@ -16,7 +16,7 @@ const Price = () => {
         <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
           <div className="relative flex flex-col md:flex-row items-center">
             <div className="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:pr-5">
-              <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden  outline outline-orange-500">
+              <div className="bg-white text-black  shadow-lg overflow-hidden  outline outline-orange-500">
                 <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                   <h1 className="text-lg text-orange-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                     UI/UX GRAPHIC DESIGNING
@@ -47,7 +47,9 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span className="text-gray-700 text-lg ml-3">No setup</span>
+                      <span className="text-gray-700 text-lg ml-3">
+                        No setup
+                      </span>
                     </li>
                     <li className="flex items-center">
                       <div className=" rounded-full p-2 fill-current text-green-700">
@@ -66,7 +68,9 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span className="text-gray-700 text-lg ml-3">No setups</span>
+                      <span className="text-gray-700 text-lg ml-3">
+                        No setups
+                      </span>
                     </li>
                     <li className="flex items-center">
                       <div className=" rounded-full p-2 fill-current text-green-700">
@@ -90,14 +94,14 @@ const Price = () => {
                   </ul>
                 </div>
                 <div className="flex items-center p-8  uppercase">
-                  <button className="mt-3 text-lg font-semibold bg-orange-500 w-full text-white rounded-lg px-6 py-3 shadow-xl">
+                  <button className="mt-3 text-lg font-semibold bg-orange-500 w-full text-white px-6 py-3 shadow-xl">
                     SELECT
                   </button>
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative bg-white rounded-lg shadow-xl outline outline-lime-500">
-              <div className="text-lg leading-none rounded-t-lg bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide">
+            <div className="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative bg-white shadow-xl outline outline-lime-500">
+              <div className="text-lg leading-none bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide">
                 Most Popular
               </div>
               <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
@@ -148,7 +152,9 @@ const Price = () => {
                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                       </svg>
                     </div>
-                    <span className="text-gray-700 text-lg ml-3">Hidden fees</span>
+                    <span className="text-gray-700 text-lg ml-3">
+                      Hidden fees
+                    </span>
                   </li>
                   <li className="flex items-center">
                     <div className=" rounded-full p-2 fill-current text-green-700">
@@ -173,13 +179,13 @@ const Price = () => {
               </div>
 
               <div className="flex items-center p-8  uppercase">
-                <button className="mt-3 text-lg font-semibold bg-lime-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
+                <button className="mt-3 text-lg font-semibold bg-lime-500 w-full text- px-6 py-3 block shadow-xl">
                   SELECT
                 </button>
               </div>
             </div>
             <div className="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8  rounded-lg shadow-lg md:pl-5">
-              <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden outline outline-sky-500">
+              <div className="bg-white text-black shadow-lg overflow-hidden outline outline-sky-500">
                 <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                   <h1 className="text-lg text-sky-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                     MOBILE APPLICATION DEVELOPMENT
@@ -209,7 +215,9 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span className="text-gray-700 text-lg ml-3">Electric</span>
+                      <span className="text-gray-700 text-lg ml-3">
+                        Electric
+                      </span>
                     </li>
                     <li className="flex items-center">
                       <div className=" rounded-full p-2 fill-current text-green-700">
@@ -228,7 +236,9 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span className="text-gray-700 text-lg ml-3">Monthly</span>
+                      <span className="text-gray-700 text-lg ml-3">
+                        Monthly
+                      </span>
                     </li>
                     <li className="flex items-center">
                       <div className=" rounded-full p-2 fill-current text-green-700">
@@ -247,13 +257,15 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span className="text-gray-700 text-lg ml-3">No setup</span>
+                      <span className="text-gray-700 text-lg ml-3">
+                        No setup
+                      </span>
                     </li>
                   </ul>
                 </div>
 
                 <div className="flex items-center p-8  uppercase">
-                  <button className="mt-3 text-lg font-semibold bg-sky-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
+                  <button className="mt-3 text-lg font-semibold bg-sky-500 w-full text- px-6 py-3 block shadow-xl">
                     SELECT
                   </button>
                 </div>
