@@ -17,7 +17,7 @@ const Teams = () => {
               <img
                 alt="Jenna Kardi"
                 src={Sahan}
-                className="shadow-lg max-w-full h-auto align-middle border-none undefined"
+                className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
             </div>
             <div className="pt-6 text-center">
@@ -51,7 +51,7 @@ const Teams = () => {
               <img
                 alt="Jenna Kardi"
                 src={Anjana}
-                className="shadow-lg max-w-full h-auto align-middle border-none undefined"
+                className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
             </div>
             <div className="pt-6 text-center">
@@ -85,7 +85,7 @@ const Teams = () => {
               <img
                 alt="Jenna Kardi"
                 src={Mitila}
-                className="shadow-lg max-w-full h-auto align-middle border-none undefined"
+                className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
             </div>
             <div className="pt-6 text-center">
@@ -119,7 +119,7 @@ const Teams = () => {
               <img
                 alt="Jenna Kardi"
                 src={Raveena}
-                className="shadow-lg max-w-full h-auto align-middle border-none undefined"
+                className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
             </div>
             <div className="pt-6 text-center">
