@@ -28,17 +28,17 @@ const Teams = () => {
             </p>
             <div className="flex items-center justify-center gap gap-2">
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-pink-600 hover:bg-zinc-800 hover:text-pink-600  undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </div>
               </button>
@@ -62,17 +62,17 @@ const Teams = () => {
             </p>
             <div className="flex items-center justify-center gap gap-2">
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-pink-600 hover:bg-zinc-800 hover:text-pink-600  undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </div>
               </button>
@@ -96,17 +96,17 @@ const Teams = () => {
             </p>
             <div className="flex items-center justify-center gap gap-2">
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-pink-600 hover:bg-zinc-800 hover:text-pink-600  undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </div>
               </button>
@@ -130,17 +130,17 @@ const Teams = () => {
             </p>
             <div className="flex items-center justify-center gap gap-2">
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-pink-600 hover:bg-zinc-800 hover:text-pink-600  undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-instagram"></ion-icon>
                 </div>
               </button>
               <button className="items-center justify-center outline-none focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-12 h-12 p-0 grid place-items-center  leading-normal bg-transparent text-blue-700 hover:bg-zinc-800 hover:text-blue-600   undefined">
-                <div className="text-3xl">
+                <div className="text-3xl translate-y-0.5">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </div>
               </button>
