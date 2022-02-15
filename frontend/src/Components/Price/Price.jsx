@@ -3,37 +3,37 @@ import React from "react";
 const Price = () => {
   return (
     <section>
-      <div class="container max-w-full mx-auto py-12 px-6">
-        <h1 class="text-center text-4xl text-black font-Poppins font-semibold leading-snug tracking-wider">
+      <div className="container max-w-full mx-auto py-12 px-6">
+        <h1 className="text-center text-4xl text-black font-Poppins font-semibold leading-snug tracking-wider">
           PRICING
         </h1>
-        <p class="text-center text-lg text-gray-700 mt-2 px-6">
+        <p className="text-center text-lg text-gray-700 mt-2 px-6">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam.
         </p>
-        <div class="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded"></div>
+        <div className="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded"></div>
 
-        <div class="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
-          <div class="relative flex flex-col md:flex-row items-center">
-            <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:pr-5">
-              <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden  outline outline-orange-500">
-                <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                  <h1 class="text-lg text-orange-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
+        <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
+          <div className="relative flex flex-col md:flex-row items-center">
+            <div className="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:pr-5">
+              <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden  outline outline-orange-500">
+                <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
+                  <h1 className="text-lg text-orange-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                     UI/UX GRAPHIC DESIGNING
                   </h1>
-                  <div class="text-black text-center pb-6">
-                    <span class="text-2xl">25$</span>
+                  <div className="text-black text-center pb-6">
+                    <span className="text-2xl">25$</span>
                   </div>
                   Stripe offers everything needed to run an online business at
                   scale. Get in touch for details.
                 </div>
 
-                <div class="flex flex-wrap mt-3 px-6">
+                <div className="flex flex-wrap mt-3 px-6">
                   <ul>
-                    <li class="flex items-center">
-                      <div class=" rounded-full p-2 fill-current text-green-700">
+                    <li className="flex items-center">
+                      <div className=" rounded-full p-2 fill-current text-green-700">
                         <svg
-                          class="w-6 h-6 align-middle"
+                          className="w-6 h-6 align-middle"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -47,12 +47,12 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span class="text-gray-700 text-lg ml-3">No setup</span>
+                      <span className="text-gray-700 text-lg ml-3">No setup</span>
                     </li>
-                    <li class="flex items-center">
-                      <div class=" rounded-full p-2 fill-current text-green-700">
+                    <li className="flex items-center">
+                      <div className=" rounded-full p-2 fill-current text-green-700">
                         <svg
-                          class="w-6 h-6 align-middle"
+                          className="w-6 h-6 align-middle"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -66,12 +66,12 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span class="text-gray-700 text-lg ml-3">No setups</span>
+                      <span className="text-gray-700 text-lg ml-3">No setups</span>
                     </li>
-                    <li class="flex items-center">
-                      <div class=" rounded-full p-2 fill-current text-green-700">
+                    <li className="flex items-center">
+                      <div className=" rounded-full p-2 fill-current text-green-700">
                         <svg
-                          class="w-6 h-6 align-middle"
+                          className="w-6 h-6 align-middle"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -85,37 +85,37 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span class="text-gray-700 text-lg ml-3">Speed</span>
+                      <span className="text-gray-700 text-lg ml-3">Speed</span>
                     </li>
                   </ul>
                 </div>
-                <div class="flex items-center p-8  uppercase">
-                  <button class="mt-3 text-lg font-semibold bg-orange-500 w-full text-white rounded-lg px-6 py-3 shadow-xl">
+                <div className="flex items-center p-8  uppercase">
+                  <button className="mt-3 text-lg font-semibold bg-orange-500 w-full text-white rounded-lg px-6 py-3 shadow-xl">
                     SELECT
                   </button>
                 </div>
               </div>
             </div>
-            <div class="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative bg-white rounded-lg shadow-xl outline outline-lime-500">
-              <div class="text-lg leading-none rounded-t-lg bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide">
+            <div className="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative bg-white rounded-lg shadow-xl outline outline-lime-500">
+              <div className="text-lg leading-none rounded-t-lg bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide">
                 Most Popular
               </div>
-              <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                <h1 class="text-lg text-lime-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
+              <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
+                <h1 className="text-lg text-lime-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                   WEB DESIGNING
                 </h1>
-                <h2 class="text-black text-center pb-6">
-                  <span class="text-2xl">65$</span>
+                <h2 className="text-black text-center pb-6">
+                  <span className="text-2xl">65$</span>
                 </h2>
                 Stripe offers everything needed to run an online business at
                 scale. Get in touch for details.
               </div>
-              <div class="flex pl-12 justify-start sm:justify-start mt-3">
+              <div className="flex pl-12 justify-start sm:justify-start mt-3">
                 <ul>
-                  <li class="flex items-center">
-                    <div class="rounded-full p-2 fill-current text-green-700">
+                  <li className="flex items-center">
+                    <div className="rounded-full p-2 fill-current text-green-700">
                       <svg
-                        class="w-6 h-6 align-middle"
+                        className="w-6 h-6 align-middle"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -129,12 +129,12 @@ const Price = () => {
                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                       </svg>
                     </div>
-                    <span class="text-gray-700 text-lg ml-3">No setup</span>
+                    <span className="text-gray-700 text-lg ml-3">No setup</span>
                   </li>
-                  <li class="flex items-center">
-                    <div class=" rounded-full p-2 fill-current text-green-700">
+                  <li className="flex items-center">
+                    <div className=" rounded-full p-2 fill-current text-green-700">
                       <svg
-                        class="w-6 h-6 align-middle"
+                        className="w-6 h-6 align-middle"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -148,12 +148,12 @@ const Price = () => {
                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                       </svg>
                     </div>
-                    <span class="text-gray-700 text-lg ml-3">Hidden fees</span>
+                    <span className="text-gray-700 text-lg ml-3">Hidden fees</span>
                   </li>
-                  <li class="flex items-center">
-                    <div class=" rounded-full p-2 fill-current text-green-700">
+                  <li className="flex items-center">
+                    <div className=" rounded-full p-2 fill-current text-green-700">
                       <svg
-                        class="w-6 h-6 align-middle"
+                        className="w-6 h-6 align-middle"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -167,35 +167,35 @@ const Price = () => {
                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                       </svg>
                     </div>
-                    <span class="text-gray-700 text-lg ml-3">Original</span>
+                    <span className="text-gray-700 text-lg ml-3">Original</span>
                   </li>
                 </ul>
               </div>
 
-              <div class="flex items-center p-8  uppercase">
-                <button class="mt-3 text-lg font-semibold bg-lime-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
+              <div className="flex items-center p-8  uppercase">
+                <button className="mt-3 text-lg font-semibold bg-lime-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
                   SELECT
                 </button>
               </div>
             </div>
-            <div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8  rounded-lg shadow-lg md:pl-5">
-              <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden outline outline-sky-500">
-                <div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                  <h1 class="text-lg text-sky-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
+            <div className="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8  rounded-lg shadow-lg md:pl-5">
+              <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden outline outline-sky-500">
+                <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
+                  <h1 className="text-lg text-sky-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                     MOBILE APPLICATION DEVELOPMENT
                   </h1>
-                  <div class="text-black text-center pb-6">
-                    <span className="text-2xl">140$</span>
+                  <div className="text-black text-center pb-6">
+                    <span classNameName="text-2xl">140$</span>
                   </div>
                   Stripe offers everything needed to run an online business at
                   scale. Get in touch for details.
                 </div>
-                <div class="flex flex-wrap mt-3 px-6">
+                <div className="flex flex-wrap mt-3 px-6">
                   <ul>
-                    <li class="flex items-center">
-                      <div class=" rounded-full p-2 fill-current text-green-700">
+                    <li className="flex items-center">
+                      <div className=" rounded-full p-2 fill-current text-green-700">
                         <svg
-                          class="w-6 h-6 align-middle"
+                          className="w-6 h-6 align-middle"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -209,12 +209,12 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span class="text-gray-700 text-lg ml-3">Electric</span>
+                      <span className="text-gray-700 text-lg ml-3">Electric</span>
                     </li>
-                    <li class="flex items-center">
-                      <div class=" rounded-full p-2 fill-current text-green-700">
+                    <li className="flex items-center">
+                      <div className=" rounded-full p-2 fill-current text-green-700">
                         <svg
-                          class="w-6 h-6 align-middle"
+                          className="w-6 h-6 align-middle"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -228,12 +228,12 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span class="text-gray-700 text-lg ml-3">Monthly</span>
+                      <span className="text-gray-700 text-lg ml-3">Monthly</span>
                     </li>
-                    <li class="flex items-center">
-                      <div class=" rounded-full p-2 fill-current text-green-700">
+                    <li className="flex items-center">
+                      <div className=" rounded-full p-2 fill-current text-green-700">
                         <svg
-                          class="w-6 h-6 align-middle"
+                          className="w-6 h-6 align-middle"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -247,13 +247,13 @@ const Price = () => {
                           <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
                       </div>
-                      <span class="text-gray-700 text-lg ml-3">No setup</span>
+                      <span className="text-gray-700 text-lg ml-3">No setup</span>
                     </li>
                   </ul>
                 </div>
 
-                <div class="flex items-center p-8  uppercase">
-                  <button class="mt-3 text-lg font-semibold bg-sky-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
+                <div className="flex items-center p-8  uppercase">
+                  <button className="mt-3 text-lg font-semibold bg-sky-500 w-full text-white rounded-lg px-6 py-3 block shadow-xl">
                     SELECT
                   </button>
                 </div>
