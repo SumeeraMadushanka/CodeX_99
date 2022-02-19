@@ -52,7 +52,7 @@ const Technologies = () => {
                 <h5 class="text-xl font-bold mb-4">Backend</h5>
                 <div className="flex ml-16 space-x-5">
                     <div><img className=" w-14" src={img5} alt=""/></div>
-                    <div><img className=" w-14" src={img6} alt=""/></div>
+                    <div><img className=" w-14 mt-4" src={img6} alt=""/></div>
                     <div><img className=" w-14" src={img7} alt=""/></div>
                 </div>
               </div>
