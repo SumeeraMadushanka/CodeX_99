@@ -1,5 +1,9 @@
 import React from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Price = () => {
   return (
     <section>
@@ -16,7 +20,7 @@ const Price = () => {
         <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
           <div className="relative flex flex-col md:flex-row items-center">
             <div className="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:pr-5">
-              <div className="shadow-lg overflow-hidden  outline outline-orange-500">
+              <div className="shadow-lg overflow-hidden  outline outline-orange-500" data-aos="flip-down" data-aos-duration="1700">
                 <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                   <h1 className="text-lg text-orange-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                     UI/UX GRAPHIC DESIGNING
@@ -100,7 +104,7 @@ const Price = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative bg-white shadow-xl outline outline-lime-500">
+            <div className="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative bg-white shadow-xl outline outline-lime-500" data-aos="flip-down" data-aos-duration="1700">
               <div className="text-lg leading-none bg-gray-200 text-black font-semibold uppercase py-4 text-center tracking-wide">
                 Most Popular
               </div>
@@ -185,7 +189,7 @@ const Price = () => {
               </div>
             </div>
             <div className="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8  rounded-lg shadow-lg md:pl-5">
-              <div className="bg-white text-black shadow-lg overflow-hidden outline outline-sky-500">
+              <div className="bg-white text-black shadow-lg overflow-hidden outline outline-sky-500" data-aos="flip-down" data-aos-duration="1700">
                 <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                   <h1 className="text-lg text-sky-500 font-bold uppercase p-3 pb-0 text-center tracking-widest">
                     MOBILE APPLICATION DEVELOPMENT

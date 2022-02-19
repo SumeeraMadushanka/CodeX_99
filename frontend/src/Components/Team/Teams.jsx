@@ -7,13 +7,21 @@ import Sahan from "../Assets/Team/sahan.png";
 import Anjana from "../Assets/Team/anjana.png";
 import Mitila from "../Assets/Team/mitila.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Teams = () => {
   return (
     <div className="bg-slate-200">
       <div className="container max-w-7xl mx-auto px-8 pb-10 pr-10 ">
         <div className="flex flex-wrap">
           <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-5 my-20">
-            <div className="cursor-pointer">
+            <div
+              className="cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <img
                 alt="Jenna Kardi"
                 src={Sahan}
@@ -47,7 +55,11 @@ const Teams = () => {
             </div>
           </div>
           <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-5 my-20">
-            <div className="cursor-pointer">
+            <div
+              className="cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <img
                 alt="Jenna Kardi"
                 src={Anjana}
@@ -81,7 +93,11 @@ const Teams = () => {
             </div>
           </div>
           <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-5 my-20">
-            <div className="cursor-pointer">
+            <div
+              className="cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <img
                 alt="Jenna Kardi"
                 src={Mitila}
@@ -115,7 +131,11 @@ const Teams = () => {
             </div>
           </div>
           <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-5 my-20">
-            <div className="cursor-pointer">
+            <div
+              className="cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <img
                 alt="Jenna Kardi"
                 src={Raveena}

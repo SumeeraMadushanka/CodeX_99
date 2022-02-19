@@ -14,6 +14,10 @@ import img9 from "../Assets/images/mysql.png";
 import img10 from "../Assets/images/firebase.png";
 import img11 from "../Assets/images/sql.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const Technologies = () => {
   return (
     <div>
@@ -28,51 +32,84 @@ const Technologies = () => {
           </div>
 
           <div class="md:flex md:-mx-4 mt-8 md:pt-4">
-
             <div class="px-4 md:w-1/3 mt-6 md:mt-0">
-              <div class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+              <div
+                class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <div class="text-4xl p-4 w-16 h-16 mx-auto text-lime-500">
-                <ion-icon name="code-slash-sharp"></ion-icon>
+                  <ion-icon name="code-slash-sharp"></ion-icon>
                 </div>
                 <h5 class="text-xl font-bold mb-4">Frontend</h5>
                 <div className="flex ml-4 space-x-5">
-                    <div><img className=" w-14" src={img1} alt=""/></div>
-                    <div><img className=" w-14" src={img2} alt=""/></div>
-                    <div><img className=" w-14" src={img3} alt=""/></div>
-                    <div><img className=" w-14" src={img4} alt=""/></div>
+                  <div>
+                    <img className=" w-14" src={img1} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14" src={img2} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14" src={img3} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14" src={img4} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
-            
+
             <div class="px-4 md:w-1/3 mt-6 md:mt-0">
-              <div class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+              <div
+                class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full"
+                data-aos="zoom-in" data-aos-duration="1500"
+              >
                 <div class="text-4xl p-4 w-16 h-16 mx-auto text-lime-500">
-                <ion-icon name="code-slash-sharp"></ion-icon>
+                  <ion-icon name="code-slash-sharp"></ion-icon>
                 </div>
                 <h5 class="text-xl font-bold mb-4">Backend</h5>
                 <div className="flex ml-16 space-x-5">
-                    <div><img className=" w-14" src={img5} alt=""/></div>
-                    <div><img className=" w-14 mt-4" src={img6} alt=""/></div>
-                    <div><img className=" w-14" src={img7} alt=""/></div>
+                  <div>
+                    <img className=" w-14" src={img5} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14 mt-4" src={img6} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14" src={img7} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
-            
+
             <div class="px-4 md:w-1/3 mt-6 md:mt-0">
-              <div class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full">
+              <div
+                class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <div class="text-4xl p-4 w-16 h-16 mx-auto text-lime-500">
-                <ion-icon name="server-sharp"></ion-icon>
+                  <ion-icon name="server-sharp"></ion-icon>
                 </div>
                 <h5 class="text-xl font-bold mb-4">Database</h5>
                 <div className="flex ml-6 space-x-5">
-                    <div><img className=" w-14" src={img8} alt=""/></div>
-                    <div><img className=" w-14" src={img9} alt=""/></div>
-                    <div><img className=" w-14" src={img10} alt=""/></div>
-                    <div><img className=" w-14 mt-4" src={img11} alt=""/></div>
+                  <div>
+                    <img className=" w-14" src={img8} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14" src={img9} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14" src={img10} alt="" />
+                  </div>
+                  <div>
+                    <img className=" w-14 mt-4" src={img11} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
