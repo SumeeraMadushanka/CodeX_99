@@ -21,9 +21,9 @@ const Technologies = () => {
         <div class="container px-14 mx-auto">
           <div class="flex -mx-4">
             <div class="px-4 text-center md:w-10/12 xl:w-8/12 mx-auto">
-              <h1 class="mb-4 text-4xl font-medium">Heading</h1>
-              <h1 class="text-2xl font-medium">heading2</h1>
-       
+              <h1 class="mb-4 text-4xl font-medium">Technologies</h1>
+              <h1 class="text-2xl font-medium">Technologies what we use</h1>
+              <div className="h-1 mx-auto bg-indigo-200 w-96 opacity-75 mt-4 rounded"></div>
             </div>
           </div>
 
