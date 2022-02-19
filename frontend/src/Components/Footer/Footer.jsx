@@ -20,7 +20,7 @@ const Footer = () => {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               SOLUTIONS
             </h2>
-            <nav className="list-none mt-4 space-y-4">
+            <nav className="list-none mb-10 mt-4 space-y-4">
               <li>
                 <span className="text-gray-600 hover:text-gray-800">Marketing</span>
               </li>
@@ -39,7 +39,7 @@ const Footer = () => {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               SUPPORT
             </h2>
-            <nav className="list-none mt-4 space-y-4">
+            <nav className="list-none mb-10 mt-4 space-y-4">
               <li>
                 <span className="text-gray-600 hover:text-gray-800">Pricing</span>
               </li>
@@ -58,7 +58,7 @@ const Footer = () => {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               COMPANY
             </h2>
-            <nav className="list-none mt-4 space-y-4">
+            <nav className="list-none mb-10 mt-4 space-y-4">
               <li>
                 <span className="text-gray-600 hover:text-gray-800">About</span>
               </li>
@@ -77,7 +77,7 @@ const Footer = () => {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               LEGAL
             </h2>
-            <nav className="list-none mt-4 space-y-4">
+            <nav className="list-none mb-10 mt-4 space-y-4">
               <li>
                 <span className="text-gray-600 hover:text-gray-800">Claim</span>
               </li>
