@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="antialiased bg-gray-100">
         <div className="flex w-full min-h-screen justify-center items-center">
-            <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
+            <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-sky-800 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden">
                 <div className="flex flex-col space-y-8 justify-between">
                     <div>
                         <h1 className="font-bold text-4xl tracking-wide">Contact Us</h1>
@@ -40,8 +40,8 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="relative lg:-right-60 md:-right-60">
-                    <div className="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -right-28 -top-28"></div>
-                    <div className="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -left-28 -bottom-16"></div>
+                    <div className="absolute z-0 w-40 h-40 bg-lime-400 rounded-full -right-28 -top-28"></div>
+                    <div className="absolute z-0 w-40 h-40 bg-lime-400 rounded-full -left-28 -bottom-16"></div>
                     <div className="relative bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
                         <form className="flex flex-col space-y-4">
                             <div>
