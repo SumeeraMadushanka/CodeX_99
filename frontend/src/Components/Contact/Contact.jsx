@@ -3,7 +3,7 @@ import axios from "axios";
 
 import load1 from "../Assets/Contact/load2.gif";
 
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
@@ -104,13 +104,16 @@ const Contact = () => {
             <div className="absolute z-0 w-40 h-40 bg-lime-400 rounded-full -right-28 -top-28"></div>
             <div className="absolute z-0 w-40 h-40 bg-lime-400 rounded-full -left-28 -bottom-16"></div>
             <div className="relative bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
-              <form className="flex flex-col space-y-4">
+              <form className="flex flex-col space-y-4" onSubmit={submitForm}>
+                <p>{banner}</p>
                 <div>
                   <label className="text-sm">Your Name</label>
                   <input
                     type="text"
                     placeholder="Your Name"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                    onChange={handleName}
+                    value={name}
                   />
                 </div>
                 <div>
@@ -119,6 +122,8 @@ const Contact = () => {
                     type="email"
                     placeholder="Email Address"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                    onChange={handleEmail}
+                    value={email}
                   />
                 </div>
                 <div>
@@ -127,100 +132,23 @@ const Contact = () => {
                     placeholder="Message"
                     rows="4"
                     className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
+                    onChange={handleMessage}
+                    value={message}
                   />
                 </div>
                 <button className="inline-block self-end bg-cyan-400 hover:bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm cursor-pointer">
                   Send Message
+                  {bool ? (
+                    <b className="load">
+                      <img src={load1} alt="not responding" />
+                    </b>
+                  ) : (
+                    ""
+                  )}
                 </button>
               </form>
             </div>
           </div>
-        </div>
-        <div className="flex flex-col space-y-6">
-          <div className="inline-flex space-x-2 items-center">
-            <ion-icon name="call" className="text-teal-300 text-xl"></ion-icon>
-            <span>(+123) 456 7890</span>
-          </div>
-          <div className="inline-flex space-x-2 items-center">
-            <ion-icon name="mail" className="text-teal-300 text-xl"></ion-icon>
-            <span>CodeX_99@gmail.com</span>
-          </div>
-          <div className="inline-flex space-x-2 items-center">
-            <ion-icon
-              name="location"
-              className="text-teal-300 text-xl"
-            ></ion-icon>
-            <span>N0:123, Main Street, ABCD.</span>
-          </div>
-        </div>
-        <div className="flex space-x-4 text-lg">
-          <a href="#">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-          <a href="#">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-          <a href="#">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-          <a href="#">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </div>
-      </div>
-      <div className="relative lg:-right-60 md:-right-60">
-        <div className="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -right-28 -top-28"></div>
-        <div className="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -left-28 -bottom-16"></div>
-        <div className="relative bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
-          <form className="flex flex-col space-y-4" onSubmit={submitForm}>
-            <p>{banner}</p>
-            <div>
-              <label className="text-sm" htmlFor="name">
-                Your Name
-              </label>
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
-                onChange={handleName}
-                value={name}
-              />
-            </div>
-            <div>
-              <label className="text-sm" htmlFor="email">
-                Email Address
-              </label>
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
-                onChange={handleEmail}
-                value={email}
-              />
-            </div>
-            <div>
-              <label className="text-sm" htmlFor="message">
-                Message
-              </label>
-              <textarea
-                placeholder="Message"
-                rows="4"
-                className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"
-                onChange={handleMessage}
-                value={message}
-              />
-            </div>
-            <button className="inline-block self-end bg-cyan-400 hover:bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm cursor-pointer">
-              Send Message
-              {bool ? (
-                <b className="load">
-                  <img src={load1} alt="not responding" />
-                </b>
-              ) : (
-                ""
-              )}
-            </button>
-          </form>
         </div>
       </div>
     </div>
