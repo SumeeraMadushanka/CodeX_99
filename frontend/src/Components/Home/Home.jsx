@@ -3,6 +3,8 @@ import "./Home.css";
 import BtnSlider from "./BtnSlider";
 import dataSlider from "./dataSlider";
 
+import img1 from "../Assets/Background/img1.jpg"
+
 const Home = () => {
   const [slideIndex, setSlideIndex] = useState(1);
 
@@ -26,13 +28,7 @@ const Home = () => {
     setSlideIndex(index);
   };
 
-  const BackgroundImages = [
-    {
-      id: 0,
-      img: "../Assets/Background/img1.jpg",
-    },
-  ];
-
+ 
   return (
     <div className="container-slider">
       {dataSlider.map((obj, index) => {
@@ -41,7 +37,7 @@ const Home = () => {
             key={obj.id}
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
-            <div>{BackgroundImages.map((image) => ({ image }))}</div>
+            <img src={img1}/>
           </div>
         );
       })}
