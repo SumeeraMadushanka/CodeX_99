@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // 'team-background' : "url(../src/Components/Assets/Background/team-background.jpg)"
+        // 'team-background' : "url(../src/Components/Assets/Team/kk.png)"
       },
       colors: {
         'cyan': colors.cyan,

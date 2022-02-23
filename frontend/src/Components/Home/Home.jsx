@@ -1,13 +1,9 @@
-import React,{useState} from "react";
-import './Home.css'
-import BtnSlider from './BtnSlider'
-import dataSlider from './dataSlider'
-
-import IMG1 from '../Assets/Background/img1.jpg'
-
+import React, { useState } from "react";
+import "./Home.css";
+import BtnSlider from "./BtnSlider";
+import dataSlider from "./dataSlider";
 
 const Home = () => {
-
   const [slideIndex, setSlideIndex] = useState(1);
 
   const nextSlide = () => {
@@ -30,6 +26,13 @@ const Home = () => {
     setSlideIndex(index);
   };
 
+  const BackgroundImages = [
+    {
+      id: 0,
+      img: "../Assets/Background/img1.jpg",
+    },
+  ];
+
   return (
     <div className="container-slider">
       {dataSlider.map((obj, index) => {
@@ -38,7 +41,7 @@ const Home = () => {
             key={obj.id}
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
-            <img src={IMG1} alt=""/>
+            <div>{BackgroundImages.map((image) => ({ image }))}</div>
           </div>
         );
       })}
@@ -47,7 +50,8 @@ const Home = () => {
 
       <div className="container-dots">
         {Array.from({ length: 3 }).map((item, index) => (
-          <div key={index}
+          <div
+            key={index}
             onClick={() => moveDot(index + 1)}
             className={slideIndex === index + 1 ? "dot active" : "dot"}
           ></div>

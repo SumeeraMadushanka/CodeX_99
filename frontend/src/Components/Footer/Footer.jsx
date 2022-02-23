@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="text-white body-font bg-zinc-800">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-blue-600">
+            <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-sky-600">
               <span className="text-6xl text-lime-500 mr-1 pt-2">
                 <ion-icon name="logo-ionic"></ion-icon>
               </span>
@@ -93,12 +93,12 @@ const Footer = () => {
       </div>
       <div className=" bg-neutral-800">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-sky-400 text-sm text-center sm:text-left">
+          <p className="text-gray-300 text-sm text-center sm:text-left">
             © 2022 CodeX_99 —
             <a
               href="#"
               rel="noopener noreferrer"
-              className="text-sky-400 ml-1"
+              className="text-gray-300 ml-1"
               target="_blank"
             >
               @codex_99
