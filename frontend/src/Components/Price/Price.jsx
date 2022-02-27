@@ -6,7 +6,7 @@ AOS.init();
 
 const Price = () => {
   return (
-    <section>
+    <section id="price">
       <div className="container max-w-full mx-auto py-12 px-6">
         <h1 className="text-center text-4xl text-black font-Poppins font-semibold leading-snug tracking-wider">
           PRICING

@@ -2,13 +2,13 @@ import React, { useState } from "react";
 
 const NavBar = () => {
   let Links = [
-    { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/" },
-    { name: "SERVICES", link: "/" },
-    { name: "PRICE", link: "/" },
-    { name: "PORTFOLIO", link: "/" },
-    { name: "TEAM", link: "/" },
-    { name: "CONTACT", link: "/" },
+    { name: "HOME", link: "#home" },
+    { name: "ABOUT", link: "#about" },
+    { name: "SERVICES", link: "#services" },
+    { name: "PRICE", link: "#price" },
+    { name: "PORTFOLIO", link: "#portfolio" },
+    { name: "TEAM", link: "#team" },
+    { name: "CONTACT", link: "#contact" },
   ];
 
   const [open, setOpen] = useState(false);

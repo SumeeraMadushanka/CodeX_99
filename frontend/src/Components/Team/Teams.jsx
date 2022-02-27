@@ -13,7 +13,7 @@ AOS.init();
 
 const Teams = () => {
   return (
-    <div className="bg-slate-200">
+    <div className="bg-slate-200" id="team">
       <div className="container max-w-7xl mx-auto px-8 pb-10 pr-10 ">
         <div className="flex flex-wrap">
           <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-5 my-20">
@@ -23,7 +23,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Sahan}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
@@ -61,7 +61,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Anjana}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
@@ -99,7 +99,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Mitila}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
@@ -137,7 +137,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Raveena}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
@@ -177,7 +177,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Sahan}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
@@ -215,7 +215,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Anjana}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
@@ -253,7 +253,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Mitila}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />
@@ -291,7 +291,7 @@ const Teams = () => {
               data-aos-duration="2000"
             >
               <img
-                alt="Jenna Kardi"
+                alt=""
                 src={Raveena}
                 className="shadow-lg max-w-full h-auto align-middle border-none undefined transform hover:translate-y-2 hover:shadow-xl transition duration-300"
               />

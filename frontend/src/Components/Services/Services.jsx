@@ -10,7 +10,7 @@ import IMG6 from "../Assets/Serviecs/img6.jpg";
 const Services = () => {
   return (
     <>
-      <div className="bg-slate-200 mt-20 ">
+      <div className="bg-slate-200" id="services">
         <div className="text-center pt-16 translate-y-8 md:translate-y-20">
           <span className=" text-5xl text-black font-semibold font-Poppins">What Do We Do?</span>
         </div>

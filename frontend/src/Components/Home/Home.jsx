@@ -1,58 +1,62 @@
-import React, { useState } from "react";
-import "./Home.css";
-import BtnSlider from "./BtnSlider";
-import dataSlider from "./dataSlider";
+import React from "react";
 
-import img1 from "../Assets/Background/img1.jpg"
+import Ellipse from "../Assets/Background/Ellipse.png";
+import Wave3 from "../Assets/Background/wave3.png";
+import Loading from "../Assets/Background/loading.gif";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Home = () => {
-  const [slideIndex, setSlideIndex] = useState(1);
-
-  const nextSlide = () => {
-    if (slideIndex !== dataSlider.length) {
-      setSlideIndex(slideIndex + 1);
-    } else if (slideIndex === dataSlider.length) {
-      setSlideIndex(1);
-    }
-  };
-
-  const prevSlide = () => {
-    if (slideIndex !== 1) {
-      setSlideIndex(slideIndex - 1);
-    } else if (slideIndex === 1) {
-      setSlideIndex(dataSlider.length);
-    }
-  };
-
-  const moveDot = (index) => {
-    setSlideIndex(index);
-  };
-
- 
   return (
-    <div className="container-slider">
-      {dataSlider.map((obj, index) => {
-        return (
-          <div
-            key={obj.id}
-            className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-          >
-            <img src={img1}/>
-          </div>
-        );
-      })}
-      <BtnSlider moveSlide={nextSlide} direction={"next"} />
-      <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+    <div className=" bg-[#2b2d3f]" id="home">
+      <section className="container h-screen flex px-[10%] py-[6%] mx-auto">
+        <img
+          src={Ellipse}
+          className="z-20 animate-ping w-6 absolute left-24 top-56"
+          alt=""
+        />
+        <img
+          src={Ellipse}
+          className="z-20 animate-ping w-6 absolute right-96 top-36"
+          alt=""
+        />
+        <img
+          src={Ellipse}
+          className="z-20 animate-ping w-6 absolute left-80 bottom-6"
+          alt=""
+        />
+        <img
+          src={Ellipse}
+          className="z-20 animate-ping w-6 absolute right-40 top-64"
+          alt=""
+        />
 
-      <div className="container-dots">
-        {Array.from({ length: 3 }).map((item, index) => (
-          <div
-            key={index}
-            onClick={() => moveDot(index + 1)}
-            className={slideIndex === index + 1 ? "dot active" : "dot"}
-          ></div>
-        ))}
-      </div>
+        <img
+          src={Wave3}
+          className="absolute bottom-20 right-36 w-96 animate-pulse"
+          alt=""
+        />
+
+        <div className=" absolute w-5/12 mt-20 left-20">
+          <img src={Loading} alt="" />
+        </div>
+
+        <div className="pt-32">
+          <div className="absolute right-96">
+            <h1 className="text-3xl leading-normal py-8">
+              Build visual <br />
+              tracking systems <br />
+              for your
+              <span> customers</span>
+            </h1>
+            <button className="bg-teal-600 px-7 rounded-full tracking-wide py-3 text-xs hover:scale-110 duration-300">
+              GET STARTED
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

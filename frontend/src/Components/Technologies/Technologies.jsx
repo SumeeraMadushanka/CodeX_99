@@ -2,17 +2,18 @@ import React from "react";
 
 import "./Technologies.css";
 
-import img1 from "../Assets/images/react.png";
-import img2 from "../Assets/images/redux.png";
-import img3 from "../Assets/images/java.png";
-import img4 from "../Assets/images/flutter.png";
-import img5 from "../Assets/images/node.png";
-import img6 from "../Assets/images/express.png";
-import img7 from "../Assets/images/php.png";
-import img8 from "../Assets/images/mongodb.png";
-import img9 from "../Assets/images/mysql.png";
-import img10 from "../Assets/images/firebase.png";
-import img11 from "../Assets/images/sql.png";
+import img1 from "../Assets/Technologies/react.png";
+import img2 from "../Assets/Technologies/redux.png";
+import img3 from "../Assets/Technologies/java.png";
+import img4 from "../Assets/Technologies/flutter.png";
+import img5 from "../Assets/Technologies/node.png";
+import img6 from "../Assets/Technologies/express.png";
+import img7 from "../Assets/Technologies/php.png";
+import img8 from "../Assets/Technologies/mongodb.png";
+import img9 from "../Assets/Technologies/mysql.png";
+import img10 from "../Assets/Technologies/firebase.png";
+import img11 from "../Assets/Technologies/sql.png";
+import tech from "../Assets/Technologies/tech.gif";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -63,7 +64,8 @@ const Technologies = () => {
             <div class="px-4 md:w-1/3 mt-6 md:mt-0">
               <div
                 class="feature-box text-center p-4 md:p-6 max-w-sm mx-auto border-2 border-solid border-gray-300 rounded md:h-full"
-                data-aos="zoom-in" data-aos-duration="1500"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
               >
                 <div class="text-4xl p-4 w-16 h-16 mx-auto text-lime-500">
                   <ion-icon name="code-slash-sharp"></ion-icon>
