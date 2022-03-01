@@ -8,7 +8,7 @@ router.post("/contact", (req, res) => {
     data.email.length === 0 ||
     data.message.length === 0
   ) {
-    return res.json({ msg: "please fill all the feilds" });
+    return res.json({ msg: "Please fill all the feilds" });
   }
 
     let smtpTransporter = nodemailer.createTransport({

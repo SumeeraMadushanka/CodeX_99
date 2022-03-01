@@ -3,14 +3,14 @@ import axios from "axios";
 
 import load1 from "../Assets/Contact/load2.gif";
 
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [banner, setBanner] = useState("");
+
   const [bool, setBool] = useState(false);
 
   const handleName = (e) => {
@@ -34,11 +34,9 @@ const Contact = () => {
       setBool(true);
       const res = await axios.post(`/contact`, data);
       if (name.length === 0 || email.length === 0 || message.length === 0) {
-        setBanner(res.data.msg);
         toast.error(res.data.msg);
         setBool(false);
       } else if (res.status === 200) {
-        setBanner(res.data.msg);
         toast.success(res.data.msg);
         setBool(false);
 
@@ -105,7 +103,6 @@ const Contact = () => {
             <div className="absolute z-0 w-40 h-40 bg-lime-400 rounded-full -left-28 -bottom-16 animate-pulse"></div>
             <div className="relative bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
               <form className="flex flex-col space-y-4" onSubmit={submitForm}>
-                <p>{banner}</p>
                 <div>
                   <label className="text-sm">Your Name</label>
                   <input
@@ -146,6 +143,7 @@ const Contact = () => {
                     ""
                   )}
                 </button>
+                <ToastContainer />
               </form>
             </div>
           </div>

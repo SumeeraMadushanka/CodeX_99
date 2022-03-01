@@ -11,7 +11,7 @@ const Footer = () => {
               </span>
               <span className="text-3xl">CodeX_99</span>
             </div>
-          <p classclassName="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-gray-500">
             Bring your ideas to life and get set up for success!
           </p>
         </div>
@@ -108,9 +108,9 @@ const Footer = () => {
             <a className="text-gray-300">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5 cursor-pointer hover:text-sky-400"
                 viewBox="0 0 24 24"
               >
@@ -120,9 +120,9 @@ const Footer = () => {
             <a className="ml-3 text-gray-300">
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5 cursor-pointer hover:text-sky-400"
                 viewBox="0 0 24 24"
               >
@@ -133,9 +133,9 @@ const Footer = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5 cursor-pointer hover:text-sky-400"
                 viewBox="0 0 24 24"
               >
@@ -147,9 +147,9 @@ const Footer = () => {
               <svg
                 fill="currentColor"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="0"
                 className="w-5 h-5 cursor-pointer hover:text-sky-400"
                 viewBox="0 0 24 24"
               >
