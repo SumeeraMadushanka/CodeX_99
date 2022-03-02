@@ -16,13 +16,13 @@ router.post("/contact", (req, res) => {
       mailhost: "smtp.gmail.com",
       port: 587,
       auth: {
-        user: "example@gmail.com",
-        pass: "abcd1234",
+        user: "codex99.solutions@gmail.com",
+        pass: "codeX99#S",
       },
     });
     let mailOptions = {
       from: data.email,
-      to: "example@gmail.com",
+      to: "codex99.solutions@gmail.com",
       subject: `message from ${data.name}`,
       html: `
 
