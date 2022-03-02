@@ -7,7 +7,6 @@ import Price from "./Components/Price/Price";
 import Technologies from "./Components/Technologies/Technologies";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-
 import About from "./Components/About/About";
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
     <>
       <NavBar />
       <Home />
-      {/* <About/> */}
+      <About/>
       <Services/>
       <Price/>
       <Technologies/>
